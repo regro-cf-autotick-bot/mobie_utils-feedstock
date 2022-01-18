@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set name = "mobie_utils" %}
 
 package:
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/mobie/mobie-utils-python/archive/{{ version }}.tar.gz
-  sha256: 9aa434d5cdfd3e1fb7d4545c18f8b56ce200ee8e6b76f942b30ef8e2ceca22fe
+  sha256: 5d91f189af253b7771ccd15f3ad31e359ac267fabdf281e21aaa85092be8d040
 
 build:
   number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
   entry_points:
     - mobie.add_image = mobie.image_data:main
