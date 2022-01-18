@@ -10,7 +10,7 @@ source:
   sha256: 5d91f189af253b7771ccd15f3ad31e359ac267fabdf281e21aaa85092be8d040
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
   entry_points:
@@ -23,6 +23,7 @@ build:
     - mobie.migrate_project = mobie.migration.migrate_project:main
     - mobie.validate_dataset = mobie.validation.dataset:main
     - mobie.validate_project = mobie.validation.project:main
+    - mobie.add_remote_metadata = mobie.metadata.remote_metadata:main
 
 requirements:
   host:
