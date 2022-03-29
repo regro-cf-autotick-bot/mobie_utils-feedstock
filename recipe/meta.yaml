@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set name = "mobie_utils" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mobie/mobie-utils-python/archive/{{ version }}.tar.gz
-  sha256: 2aaba5097c4ee816a64e2e8628a9426f9c26c4bd4591984ff08b9c1da02f83f5
+  sha256: 03d5f91d13734e39d2c74127a7d3bfd1b556c82a5ca4db8a99c0cf8cb294e854
 
 build:
   number: 0
