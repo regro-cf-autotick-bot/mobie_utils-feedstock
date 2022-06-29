@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set name = "mobie_utils" %}
 
 package:
@@ -31,7 +31,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - cluster_tools >=0.3.6
+    - cluster_tools >=0.4.4
     - jsonschema
     - pandas
     - requests
