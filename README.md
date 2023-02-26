@@ -1,11 +1,11 @@
-About mobie_utils
-=================
+About mobie_utils-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mobie_utils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mobie/mobie-utils-python
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mobie_utils-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python tools for MoBIE.
 
