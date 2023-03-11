@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mobie/mobie-utils-python/archive/{{ version }}.tar.gz
-  sha256: a41e59084818534e062e74964528b8cd4073e1c00b96fed69bb9a35336108e84
+  sha256: 15cd312938345fa4a09f25e7fc2ec35863f363096405eacfab5f7bf403605581
 
 build:
   number: 0
