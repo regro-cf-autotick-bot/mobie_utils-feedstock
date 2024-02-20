@@ -1,4 +1,4 @@
-{% set version = "0.4.5" %}
+{% set version = "0.5.0" %}
 {% set name = "mobie_utils" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mobie/mobie-utils-python/archive/{{ version }}.tar.gz
-  sha256: 785a48abd9bea0f570852087ccf8888217b75eea2f1226c9f14588942d66030f
+  sha256: 9779206b644f84a836a979d3a8f9caeb9e7fe37883826772d60df3e80c7a6fed
 
 build:
   number: 0
@@ -36,6 +36,7 @@ requirements:
     - pandas
     - requests
     - s3fs
+    - threadpoolctl >=0.3.3
 
 test:
   imports:
