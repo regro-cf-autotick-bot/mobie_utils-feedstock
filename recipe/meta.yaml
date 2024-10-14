@@ -29,6 +29,7 @@ requirements:
   host:
     - python >=3.6
     - pip
+    - setuptools
   run:
     - python >=3.6
     - cluster_tools >=0.4.4
