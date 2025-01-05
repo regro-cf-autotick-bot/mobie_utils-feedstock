@@ -10,7 +10,7 @@ source:
   sha256: 5466c7798b1aa126b536677cf6877b4142876d9a4a08d75c224cbfac9950be05
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
   entry_points:
@@ -27,11 +27,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - cluster_tools >=0.4.4
     - jsonschema
     - pandas
@@ -40,6 +40,8 @@ requirements:
     - threadpoolctl >=0.3.3
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - mobie
     - mobie.metadata
